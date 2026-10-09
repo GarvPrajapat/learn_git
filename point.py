@@ -3,14 +3,17 @@ class Point():
         self.x = x
         self.y = y
 
-    def __add__(self,obj):
-        return Point(self.x + obj.x , self.y + obj.y)
+    def __add__(self, other):
+        return Point(self.x + other.x , self.y + other.y)
     
-    def __sub__(self,obj):
-        return Point(self.x - obj.x , self.y - obj.y)
+    def __sub__(self, other):
+        return Point(self.x - other.x , self.y - other.y)
 
     def __str__(self):
         return f"{{{self.x},{self.y}}}"
+
+    def __mul__(self, other):
+        return Point(self.x * other.x , self.y * other.y)
 
 
 print(Point(3,4))
