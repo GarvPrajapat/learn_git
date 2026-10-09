@@ -47,4 +47,3 @@
         - Data Science intern 
         - 1 month
         - work Experience
-meow
