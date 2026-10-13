@@ -1,14 +1,14 @@
 import random as rand
 
 num,choice,attemps = rand.randint(1,1000),0,0
+print(num)
 
 while num != choice :
     choice = int(input("Enter your Guess : "))
-
     if num > choice :
-        print("to low")
+        print("\nto low",end="")
     else:
-        print("to high")
+        print("\nto high",end="")
     attemps+=1
-    
-print(f"Bingo the you guessed number in {attemps}")
+
+print(f"\rBingo the you guessed number in {attemps}")
