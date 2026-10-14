@@ -9,6 +9,6 @@ while num != choice :
         print("\nto low",end="")
     else:
         print("\nto high",end="")
-    attemps+=1
+    attemps+=1 
 
 print(f"\rBingo the you guessed number in {attemps}")
