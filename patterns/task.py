@@ -10,7 +10,6 @@ row = int(input("rows: "))
 # for i in range(row):
 #     print("*"*5)
 
-
 # # mirred triangle
 # for i in range(1,row+1):
 #     print(" "*(row-i) + "*"*i)
